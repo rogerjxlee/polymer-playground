@@ -35,7 +35,12 @@ header {
   @apply --layout-center-center;
   height: 100vh;
   padding: 0 16px;
-  background-image: url('//app-layout-assets.appspot.com/assets/landing-page/glass_explorer_food_2.png');
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url('//i.imgur.com/giBUlri.jpg');
   backgrond-repeat: no-repeat;
   background-size: cover;
   color: white;
